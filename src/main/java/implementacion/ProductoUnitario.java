@@ -99,4 +99,11 @@ public class ProductoUnitario implements IPrecio {
     public double getImporteTotal() {
         return getCantidad() * getPrecio();
     }
+
+    @Override
+    public String toString() {
+        return  " "+nombre+"\t"+precio +
+                "\t" +  cantidad;
+    }
+
 }

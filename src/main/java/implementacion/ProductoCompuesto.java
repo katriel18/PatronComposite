@@ -66,4 +66,19 @@ public class ProductoCompuesto implements IPrecio {
         }
         return importeTotal;
     }
+
+    @Override
+    public String toString() {
+        String temp="";
+        for (Iterator<IPrecio> it = productos.iterator(); it.hasNext();) {
+            IPrecio iPrecio = it.next();
+            temp +=iPrecio.toString();
+
+            if(!(iPrecio instanceof ProductoCompuesto)){
+                temp=temp+"\n";
+            }
+
+        }
+        return temp;
+    }
 }

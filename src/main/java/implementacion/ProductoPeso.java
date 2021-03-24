@@ -109,4 +109,11 @@ public class ProductoPeso implements IPrecio {
     public double getImporteTotal() {
         return getPrecioPorPeso() * getPeso();
     }
+
+    @Override
+    public String toString() {
+        return  " "+nombre+"\t"+precioPorPeso +
+                "\t" +  peso;
+    }
+
 }
