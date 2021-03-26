@@ -3,34 +3,34 @@
   <ID>JAVA</ID>
   <OriginalElement>implementacion.ProductoCompuesto</OriginalElement>
   <nodes>
-    <node x="0.0" y="582.0">gui.Main</node>
-    <node x="373.0" y="225.0">implementacion.ProductoCompuesto</node>
-    <node x="680.0" y="117.0">implementacion.ProductoPeso</node>
-    <node x="400.0" y="0.0">base.IPrecio</node>
-    <node x="0.0" y="117.0">implementacion.ProductoUnitario</node>
+    <node x="802.4955154584784" y="636.6722591537406">gui.Main</node>
+    <node x="0.0" y="225.0">implementacion.ProductoCompuesto</node>
+    <node x="307.0" y="117.0">implementacion.ProductoPeso</node>
+    <node x="688.0" y="117.0">implementacion.ProductoUnitario</node>
+    <node x="371.0" y="0.0">base.IPrecio</node>
   </nodes>
   <notes />
   <edges>
     <edge source="implementacion.ProductoCompuesto" target="base.IPrecio">
-      <point x="0.0" y="-102.0" />
-      <point x="0.0" y="33.5" />
-    </edge>
-    <edge source="implementacion.ProductoUnitario" target="base.IPrecio">
-      <point x="0.0" y="-210.0" />
-      <point x="176.5" y="92.0" />
-      <point x="438.8333333333333" y="92.0" />
+      <point x="0.0" y="-115.5" />
+      <point x="143.5" y="92.0" />
+      <point x="409.8333333333333" y="92.0" />
       <point x="-77.66666666666669" y="33.5" />
     </edge>
-    <edge source="implementacion.ProductoPeso" target="base.IPrecio">
-      <point x="0.0" y="-210.0" />
-      <point x="860.5" y="92.0" />
-      <point x="594.1666666666667" y="92.0" />
+    <edge source="implementacion.ProductoUnitario" target="base.IPrecio">
+      <point x="0.0" y="-223.5" />
+      <point x="864.5" y="92.0" />
+      <point x="565.1666666666667" y="92.0" />
       <point x="77.66666666666674" y="33.5" />
     </edge>
+    <edge source="implementacion.ProductoPeso" target="base.IPrecio">
+      <point x="0.0" y="-223.5" />
+      <point x="0.0" y="33.5" />
+    </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="359.0" y="239.0" />
+  <settings layout="Hierarchic Group" zoom="0.3641304347826087" x="527.0" y="542.0" />
   <SelectedNodes>
-    <node>implementacion.ProductoCompuesto</node>
+    <node>gui.Main</node>
   </SelectedNodes>
   <Categories>
     <Category>Fields</Category>
